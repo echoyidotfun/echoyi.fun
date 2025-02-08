@@ -16,15 +16,11 @@ jobs:
           # If your repository depends on submodule, please see: https://github.com/actions/checkout
           submodules: recursive
       - name: Use Node.js 22.x
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: "v22.11.0"
       - name: Cache NPM dependencies
-<<<<<<< HEAD
-        uses: actions/cache@v2
-=======
         uses: actions/cache@v3
->>>>>>> c02068c (add workflow)
         with:
           path: node_modules
           key: ${{ runner.OS }}-npm-cache
@@ -35,11 +31,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Upload Pages artifact
-<<<<<<< HEAD
-        uses: actions/upload-pages-artifact@v2
-=======
         uses: actions/upload-pages-artifact@v3
->>>>>>> c02068c (add workflow)
         with:
           path: ./public
   deploy:
