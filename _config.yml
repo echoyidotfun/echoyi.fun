@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Welcome to 0xEmiya's Lab!
+title: Emiya's Lab
 subtitle: ""
 description: ""
 keywords:
 author: 0xEmiya
-language: en
+language: zh-cn
 timezone: ""
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://0xemiya.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: oranges
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -108,3 +108,10 @@ search:
   path: search.xml
   field: post
   format: html
+  content: true
+
+archive_generator:
+  per_page: 0
+  yearly: false
+  monthly: false
+  daily: false
