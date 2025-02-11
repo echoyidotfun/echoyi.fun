@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 一衡echo
+title: echoyi's lab
 subtitle: "echoyi.fun"
 description: ""
 keywords:
 author: Me
 language: zh-cn
-timezone: "+07:00"
+timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'

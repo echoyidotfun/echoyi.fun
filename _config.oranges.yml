@@ -27,7 +27,7 @@ favicon:
 # 用户头像与昵称
 avatar:
   author_photo: /images/avatar.svg
-  author_nickname: echoyi
+  author_nickname: echoyi's lab
   path: /
 
 # Google 分析
