@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Emiya's Lab
-subtitle: ""
+title: 一衡echo
+subtitle: "echoyi.fun"
 description: ""
 keywords:
-author: 0xEmiya
+author: Me
 language: zh-cn
-timezone: "CST"
+timezone: "+07:00"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://0xemiya.github.io
+url: https://echoyi.fun
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
