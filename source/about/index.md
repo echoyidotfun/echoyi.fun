@@ -14,7 +14,7 @@ layout: about
   <div class="resume-header">
     <h1 class="resume-name">Echo</h1>
     <div class="resume-contact">
-      <div class="resume-contact-item"><i class="fas fa-phone"></i> 18521398195</div>
+      <div class="resume-contact-item"><i class="fab fa-telegram"></i> <a href="https://t.me/echoyidotfun" target="_blank">echoyidotfun</a></div>
       <div class="resume-contact-item"><i class="fas fa-envelope"></i> tjucssong@gmail.com</div>
       <div class="resume-contact-item"><i class="fab fa-github"></i> <a href="https://github.com/echoyidotfun" target="_blank">github.com/echoyidotfun</a></div>
       <div class="resume-contact-item"><i class="fas fa-map-marker-alt"></i> 北京</div>
