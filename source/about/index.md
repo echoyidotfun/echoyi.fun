@@ -7,7 +7,7 @@ tags:
 layout: about
 ---
 
-<link rel="stylesheet" href="/css/resume.css">
+<link rel="stylesheet" href="./resume.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 <div class="resume-container">

@@ -1,0 +1,304 @@
+/* 简历样式 */
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400,300&display=swap");
+
+.resume-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Satoshi", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+}
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.resume-name {
+  font-size: 2.2em;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.resume-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.resume-contact-item {
+  display: flex;
+  align-items: center;
+  color: #555;
+}
+
+.resume-contact-item i {
+  margin-right: 5px;
+  color: #4a89dc;
+}
+
+.resume-section {
+  margin-bottom: 25px;
+}
+
+.resume-section-title {
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #f0f0f0;
+  color: #4a89dc;
+  display: flex;
+  align-items: center;
+}
+
+.resume-section-title i {
+  margin-right: 8px;
+  color: #4a89dc;
+}
+
+.resume-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 8px;
+}
+
+.resume-list li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 0.3em;
+}
+
+.resume-list li::before {
+  content: "•";
+  color: #4a89dc;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  position: absolute;
+  left: 0;
+}
+
+.education-item,
+.work-item,
+.project-item {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  border-left: 3px solid #f0f0f0;
+}
+
+.education-item:hover,
+.work-item:hover,
+.project-item:hover {
+  border-left-color: #4a89dc;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 6px;
+}
+
+.item-title {
+  font-weight: 600;
+  color: #333;
+  font-size: 1.1em;
+}
+
+.item-subtitle {
+  color: #999;
+  font-size: 0.9em;
+}
+
+.item-date {
+  color: #777;
+  font-size: 0.9em;
+}
+
+.item-content {
+  color: #444;
+}
+
+.skills-container {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.skills-list li {
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 0.3em;
+}
+
+.skills-list li::before {
+  content: "•";
+  color: #4a89dc;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  position: absolute;
+  left: 0;
+}
+
+.skill-title {
+  font-weight: 600;
+  margin-right: 6px;
+  color: #333;
+}
+
+/* 覆盖默认的粗体样式 */
+.resume-container .highlight,
+.resume-container span.highlight {
+  font-weight: 500 !important;
+  color: #111111 !important;
+  background-color: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+.resume-container strong,
+.resume-container b,
+.resume-container .resume-list li strong,
+.resume-container .item-content strong {
+  font-weight: 600 !important;
+  background-color: transparent !important;
+  color: inherit !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+/* 超链接样式修复 */
+.resume-container a,
+.resume-container a:link,
+.resume-container a:visited,
+.resume-container a:hover,
+.resume-container a:active {
+  color: inherit;
+  text-decoration: none !important;
+  background-color: transparent !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  display: inline-block;
+  transition: color 0.2s;
+  position: relative;
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: inherit !important;
+}
+
+.resume-container .resume-contact-item a:hover {
+  color: #2a5db0;
+}
+
+/* 覆盖任何可能的GitHub链接特殊样式 */
+.resume-container .fa-github + a,
+.resume-container .fa-github + a:hover {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  display: inline-block;
+  line-height: inherit !important;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .resume-container {
+    padding: 15px;
+  }
+
+  .item-header {
+    flex-direction: column;
+  }
+
+  .item-date {
+    margin-top: 5px;
+  }
+}
+
+/* 暗色模式适配 */
+@media (prefers-color-scheme: dark) {
+  body.dark-theme .resume-section-title {
+    color: #64b5f6;
+    border-bottom-color: #333;
+  }
+
+  body.dark-theme .resume-section-title i {
+    color: #64b5f6;
+  }
+
+  body.dark-theme .education-item,
+  body.dark-theme .work-item,
+  body.dark-theme .project-item {
+    border-left-color: #333;
+  }
+
+  body.dark-theme .education-item:hover,
+  body.dark-theme .work-item:hover,
+  body.dark-theme .project-item:hover {
+    border-left-color: #64b5f6;
+  }
+
+  body.dark-theme .resume-list li::before,
+  body.dark-theme .skills-list ::before {
+    color: #64b5f6;
+  }
+
+  body.dark-theme .highlight,
+  body.dark-theme span.highlight {
+    color: #64b5f6 !important;
+    background-color: transparent !important;
+  }
+
+  body.dark-theme .resume-name {
+    color: #eee;
+  }
+
+  body.dark-theme .item-title,
+  body.dark-theme .skill-title {
+    color: #eee;
+  }
+
+  body.dark-theme .skill-category-title {
+    color: #eee;
+  }
+
+  body.dark-theme .resume-container a {
+    color: inherit;
+  }
+
+  body.dark-theme .resume-container .resume-contact-item a:hover {
+    color: #90caf9;
+  }
+
+  body.dark-theme .resume-container .item-subtitle a,
+  body.dark-theme .resume-container .item-subtitle a:hover {
+    color: #64b5f6;
+  }
+}
+
+.resume-container .item-subtitle a,
+.resume-container .item-subtitle a:hover {
+  color: #4a89dc;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
