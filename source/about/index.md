@@ -19,7 +19,7 @@ layout: about
       <div class="resume-contact-item"><i class="fab fa-github"></i> <a href="https://github.com/echoyidotfun" target="_blank">github.com/echoyidotfun</a></div>
       <div class="resume-contact-item"><i class="fas fa-map-marker-alt"></i> 北京</div>
     </div>
-    <p><strong>求职意向：</strong><span class="highlight">智能合约开发/全栈开发</span>（远程/北京）- 离职-随时到岗</p>
+    <p><strong>求职意向：</strong><span class="highlight">智能合约/后端开发</span>（远程/北京）- 离职-随时到岗</p>
   </div>
 
   <div class="resume-section">
